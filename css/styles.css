@@ -1,0 +1,162 @@
+#title{
+  background-color:  #ff4c68;
+  height: 100%;
+}
+body{
+  font-family: Montserrat;
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+.below-title{
+  margin-top: 100px;
+}
+.heading{
+  font-family: 'Montserrat';
+  color: white;
+  size:200rem;
+  line-height: 4;
+  font-weight: 900;
+}
+.download-buttons{
+  margin-top: 50px;
+  margin-left:10px;
+}
+.dog-image{
+  transform: rotate(20deg);
+  position: absolute;
+  width: 60%;
+  right: 20%;
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+  font-family: "Montserrat";
+}
+#features{
+  align-content: center;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  background-color: white;
+}
+.Montserrat-bold{
+  font-family: "Montserrat";
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+.fas{
+  display: block;
+  margin: 0 auto;
+  color: #ef8172;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.hover-change:hover{
+  color: #ff4c68;
+}
+.description{
+  color: #8f8f8f;
+}
+
+/* testimonial */
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial{
+  background-color: #ef8172;
+
+  color: white;
+  text-align: center;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press */
+.press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing */
+.pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.card-spacing{
+  margin: 10px;
+}
+.row{
+  margin: auto;
+}
+.card-header{
+  width: 100%
+}
+@media (max-width:1060) {
+  .download-buttons-1{
+    margin-top:10px;
+    padding: 10px;
+  }
+  .dog-image{
+    transform: rotate(0deg);
+    position: static;
+    width: 60%;
+    right: 20%;
+
+  }
+}
+
+/* calltoaction */
+
+#cta{
+  background-color: #ff4c68;
+}
+.cta-div{
+  margin: 0 15%;
+  padding: 5% 15%;
+  text-align: center;
+}
+.cta-wording{
+  font-family: "Montserrat";
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 5rem;
+}
+.download-button{
+  margin-left: 10px;
+}
+/* footer */
+#footer{
+  text-align: center;
+  margin-top: 150px;
+}
+.favicons{
+  margin-left: 10px;
+}
